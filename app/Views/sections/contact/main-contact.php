@@ -9,9 +9,9 @@
                                 <h3>Leave A Message</h3>
                             </div><!-- /.block-title -->
                             <div class="contact-one__summery">
-                                <p>Lorem ipsum dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua lonm andhn. Aenean tincidunt id mauris id
-                                    auctor. Donec at ligula lacus dignissim mi quis simply neque.</p>
+                                <p>
+                                Have a question, feedback, queries or want to collaborate? We'd love to hear from you! Connect with us at BreakTech as we strive to transform communities, empower individuals, and drive sustainable development through the transformative power of technology. Together, we can build a brighter future for all.
+                                </p>
                             </div><!-- /.contact-one__summery -->
                             <div class="contact-one__social">
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>

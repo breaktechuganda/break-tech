@@ -26,17 +26,14 @@
               <div class="container">
                 <div class="row">
                   <div class="col-xl-7 col-lg-7">
-                    <span class="tagline">Welcome to Agriculture Farm</span>
                     <h2>
-                      <span>Agriculture</span> <br />
-                      & Eco Farming
+                      <span>Modernizing</span> <br />
+                      Agriculture
                     </h2>
                     <p>
-                      There are many of passages of lorem Ipsum, but the majori
-                      have <br />
-                      suffered alteration in some form.
-                    </p>
-                    <a href="#" class="thm-btn">Discover More</a>
+                    We aim in harnessing technology to transform the whole agriculture landscape engine of uganda by empowering farmers
+                     </p>
+                    <a href="<?= base_url('products_and_services'); ?>" class="thm-btn">Discover More</a>
                     <!-- /.thm-btn dynamic-radius -->
                   </div>
                   <!-- /.col-lg-7 text-right -->
@@ -50,24 +47,22 @@
               <div
                 class="image-layer"
                 style="
-                  background-image: url(assets/images/main-slider/main-slider-1-2.jpg);
+                  background-image: url(<?= base_url('assets/images/main-slider/main-slider-1-2.jpg'); ?>);
                 "
               ></div>
               <!-- /.image-layer -->
               <div class="container">
                 <div class="row">
                   <div class="col-xl-7 col-lg-7">
-                    <span class="tagline">Welcome to Agriculture Farm</span>
                     <h2>
-                      <span>Agriculture</span><br />
-                      & Eco Farming
+                      <span>Modernizing</span> <br />
+                      Agriculture
                     </h2>
                     <p>
-                      There are many of passages of lorem Ipsum, but the majori
-                      have <br />
-                      suffered alteration in some form.
-                    </p>
-                    <a href="#" class="thm-btn">Discover More</a>
+                       We aim in harnessing technology to transform the
+                        whole agriculture landscape engine of uganda by empowering farmers
+                     </p>
+                    <a href="<?= base_url('products_and_services'); ?>" class="thm-btn">Discover More</a>
                     <!-- /.thm-btn dynamic-radius -->
                   </div>
                   <!-- /.col-lg-7 text-right -->
@@ -99,3 +94,4 @@
         </div>
         <!-- /.swiper-container thm-swiper__slider -->
       </section>
+      

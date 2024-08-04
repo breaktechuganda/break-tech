@@ -3,6 +3,7 @@
 
 <?= $this->section('content') ?>
         <?= view('sections/page-header') ?>
+        <?= view('sections/news/video-gallery')?>
         <?= view('sections/news/news-grid') ?>
 
 

@@ -10,7 +10,7 @@
                 <div class="contact-two__image-bubble-3"></div>
                 <!-- /.contact-two__image-bubble-3 -->
                 <img
-                  src="assets/images/resources/contact-1-1.jpg"
+                  src="<?= base_url('assets/images/resources/contact-1-2-3.jpg'); ?>"
                   class="img-fluid"
                   alt=""
                 />
@@ -29,11 +29,7 @@
                 <!-- /.block-title -->
                 <div class="contact-two__summery">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur notted adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua lonm andhn. Aenean tincidunt id mauris id
-                    auctor. Donec at ligula lacus dignissim mi quis simply
-                    neque.
+                  Drop your details and we will connect with you to talk about your needs and see how our team can help.
                   </p>
                 </div>
                 <!-- /.contact-two__summery -->

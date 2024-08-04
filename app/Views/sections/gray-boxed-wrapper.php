@@ -12,16 +12,14 @@
                   <div class="block-title__image"></div>
                   <!-- /.block-title__image -->
                   <p>From the blog post</p>
-                  <h3>Latest News & Articles Directly from Blog</h3>
+                  <h3>Empowering farmers by laying emphasis on health, agriculture, and education</h3>
                 </div>
                 <!-- /.block-title -->
               </div>
               <!-- /.col-lg-6 -->
               <div class="col-lg-6">
                 <p class="block-text">
-                  Lorem ipsum is simply free text available. Aenean eu leo quam.
-                  Pellentesque ornare sem lacinia quam venenatis vestibulum.
-                  Aenean lacinia bibendum nulla sed consectetur.
+                At BreakTech, we are a social enterprise dedicated to driving social development through the innovative use of technology to incorporate financial inclusion, health integration, e-commerce access, and resource mobilization for better wealth creation and sustainable growth.
                 </p>
               </div>
               <!-- /.col-lg-6 -->
@@ -140,36 +138,4 @@
           <!-- /.container -->
         </div>
         <!-- /.blog-home-two -->
-        <div class="blog-home__slogan">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-9">
-                <div class="blog-home__slogan-main">
-                  <i class="agrikon-icon-farm"></i>
-                  <div class="blog-home__slogan-content">
-                    <h3>We Care About Our Agriculture Growth</h3>
-                    <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered in some form, by
-                      injected humour words.
-                    </p>
-                  </div>
-                  <!-- /.blog-home__slogan-content -->
-                </div>
-                <!-- /.blog-home__slogan-main -->
-              </div>
-              <!-- /.col-lg-9 -->
-              <div class="col-lg-3">
-                <div class="blog-home__slogan-image">
-                  <img src="assets/images/resources/blog-cta-1.png" alt="" />
-                </div>
-                <!-- /.blog-home__slogan-image -->
-              </div>
-              <!-- /.col-lg-3 -->
-            </div>
-            <!-- /.row -->
-          </div>
-          <!-- /.container -->
-        </div>
-        <!-- /.blog-home__slogan -->
       </section>

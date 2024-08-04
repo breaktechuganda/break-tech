@@ -1218,13 +1218,11 @@
 
 .blog-details {
   padding-top: 80px;
-  padding-bottom: 80px;
 }
 
 @media (min-width: 1200px) {
   .blog-details {
     padding-top: 120px;
-    padding-bottom: 120px;
   }
 }
 
@@ -1805,7 +1803,6 @@
 :root {
   --thm-font: "Inter", sans-serif;
   --heading-font: "Inter", sans-serif;
-  --special-font: "Handlee", cursive;
   --thm-color: #6e7673;
   --thm-color-rgb: 110, 118, 115;
   --thm-base: #49a760;
@@ -3598,7 +3595,6 @@ h6 {
 .main-slider .swiper-slide h2 {
   margin: 0;
   color: #fff;
-  font-family: var(--special-font);
   font-size: 100px;
   line-height: 1.1;
   margin-top: 15px;
@@ -4038,7 +4034,6 @@ h6 {
 .page-header .container h2 {
   margin: 0;
   line-height: 1;
-  font-family: var(--special-font);
   color: #fff;
   font-size: 70px;
   font-weight: 700;
@@ -5041,6 +5036,27 @@ h6 {
   color: var(--thm-base);
 }
 
+.contact-two::before {
+  content: "";
+  width: 100%;
+  height: 16px;
+  background-image: url(../images/shapes/ripped-paper-gray-up.png);
+  position: absolute;
+  top: -16px;
+  left: 0;
+  z-index: 10;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  background-size: auto;
+}
+
+@media (min-width: 1700px) {
+  .contact-two::before {
+    background-size: 100%;
+    bottom: -15px;
+  }
+}
+
 .contact-two {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -5749,7 +5765,6 @@ h6 {
 }
 
 .call-to-action h3 {
-  font-family: var(--special-font);
   font-size: 32px;
   font-weight: bold;
   color: #fff;
@@ -5869,7 +5884,6 @@ h6 {
 
 .call-to-action__two h3 {
   margin: 0;
-  font-family: var(--special-font);
   font-size: 36px;
   letter-spacing: -0.02em;
   font-weight: bold;
@@ -6025,7 +6039,6 @@ h6 {
 .call-to-action__three-content h3 {
   margin: 0;
   font-size: 36px;
-  font-family: var(--special-font);
   margin-bottom: 20px;
   color: #fff;
   font-weight: bold;
@@ -6298,24 +6311,32 @@ h6 {
 .service-two .row {
   margin-left: -10px;
   margin-right: -10px;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
 
 @media (min-width: 992px) {
   .service-two .row {
     margin-left: -3px;
     margin-right: -3px;
+    margin-top: -3x;
+    margin-bottom: -3px;
   }
 }
 
 .service-two .row [class*="col-"] {
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 992px) {
   .service-two .row [class*="col-"] {
     padding-left: 3px;
     padding-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 }
 
@@ -6324,6 +6345,9 @@ h6 {
   margin-bottom: 20px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 @media (min-width: 1200px) {
@@ -6347,22 +6371,23 @@ h6 {
   background-color: #fff;
   position: relative;
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+  flex: 1;
 }
 
 @media (min-width: 1200px) {
   .service-two__card-content {
-    padding-bottom: 45px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
 }
 
@@ -6383,7 +6408,6 @@ h6 {
 
 @media (min-width: 1200px) {
   .service-two__card-content h3 {
-    max-width: 145px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -6576,6 +6600,15 @@ h6 {
     margin-top: 0;
   }
 }
+.service-details .market-access-title-2 {
+  margin: 20px 0;
+}
+
+@media (min-width: 1200px) {
+  .service-details .market-access-title-2 {
+    margin: 40px 0;
+  }
+}
 
 .service-details p {
   margin: 0;
@@ -6669,10 +6702,10 @@ h6 {
   }
 }
 
-.service-details .special-box {
+.service-details .special-box,
+.purpose-and-values .special-box {
   background-color: var(--thm-base);
   color: #fff;
-  font-family: var(--special-font);
   font-size: 22px;
   padding: 30px;
   line-height: 1.4;
@@ -6682,7 +6715,8 @@ h6 {
 }
 
 @media (min-width: 1200px) {
-  .service-details .special-box {
+  .service-details .special-box,
+  .purpose-and-values .special-box {
     font-size: 30px;
     font-weight: bold;
     padding-left: 80px;
@@ -6755,8 +6789,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .service-sidebar__links ul li {
@@ -6771,26 +6804,23 @@ h6 {
   display: block;
   font-size: 16px;
   color: #255946;
-  line-height: 50px;
   font-weight: 500;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   border-radius: 5px;
 }
 
-.service-sidebar__links ul li a:hover {
+.service-sidebar__links ul li a:hover,
+.service-sidebar__links ul li a.current {
   background-color: #fff;
   color: var(--thm-base);
 }
 
 @media (min-width: 992px) {
   .service-sidebar__links ul li a {
-    line-height: 80px;
     font-size: 18px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 20px;
   }
 }
 
@@ -6826,15 +6856,14 @@ h6 {
 .service-sidebar__call h3 {
   margin: 0;
   position: relative;
-  font-size: 36px;
+  font-size: 22px;
   text-align: center;
   color: #fff;
-  font-family: var(--special-font);
 }
 
 @media (min-width: 1200px) {
   .service-sidebar__call h3 {
-    font-size: 46px;
+    font-size: 28px;
   }
 }
 
@@ -6966,7 +6995,6 @@ h6 {
 .about-one__count h4 {
   margin: 0;
   font-size: 30px;
-  font-family: var(--special-font);
   color: #fff;
   line-height: 1;
 }
@@ -6986,14 +7014,14 @@ h6 {
 .about-one__tagline p {
   margin: 0;
   color: var(--thm-primary);
-  font-size: 24px;
-  line-height: 1;
-  font-family: var(--special-font);
+  font-size: 18px;
+  line-height: 26px;
 }
 
 @media (min-width: 1200px) {
   .about-one__tagline p {
-    font-size: 26px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
@@ -7317,7 +7345,6 @@ h6 {
 
 .about-two__progress-box span {
   display: block;
-  font-family: var(--special-font);
   color: var(--thm-base);
   font-size: 18px;
   position: absolute;
@@ -8309,7 +8336,6 @@ h6 {
   margin: 0;
   font-size: 30px;
   color: #fff;
-  font-family: var(--special-font) !important;
   font-weight: bold;
 }
 
@@ -8433,11 +8459,10 @@ h6 {
   margin: 0;
   font-size: 30px;
   line-height: 1;
-  font-family: var(--special-font) !important;
   color: var(--thm-black);
   margin-top: 20px;
   margin-bottom: 20px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .funfact-one__single h3 span {
