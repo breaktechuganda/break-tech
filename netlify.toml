@@ -1,0 +1,11 @@
+[build]
+  publish = "public"   # This is the directory where your public assets (e.g., CSS, JS) are located.
+  functions = "functions"  # Specify where your Netlify functions (e.g., PHP server-side logic) are located.
+
+[build.environment]
+  PHP_VERSION = "8.1"  # Specify the PHP version (if you're using serverless functions).
+
+[[redirects]]
+  from = "/*"
+  to = "/index.php"
+  status = 200
