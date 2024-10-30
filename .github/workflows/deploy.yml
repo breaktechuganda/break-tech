@@ -3,7 +3,7 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main
+      - main  # Adjust to the branch you want to deploy
 
 jobs:
   deploy:
@@ -15,12 +15,16 @@ jobs:
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
+          # Add the server's SSH key to known_hosts
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+          # Set up SSH config
           echo -e "Host server\n\tHostName ${{ secrets.SSH_HOST }}\n\tUser ${{ secrets.SSH_USER }}\n\tIdentityFile ~/.ssh/deploy_key\n\tStrictHostKeyChecking no" > ~/.ssh/config
 
       - name: Deploy with Git pull
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
-          cd /var/www/html/break-tech
-          git pull origin main 
+          cd /var/www/html/break-tech/
+          git pull origin main  # Adjust 'main' to your branch
           composer install --no-dev --optimize-autoloader
+          php artisan migrate --force
           EOF
