@@ -14,13 +14,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Start SSH agent and add the private SSH key
+      # Start SSH agent and add the private SSH key from secrets
       - name: Start SSH Agent and Add Key
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
+          mkdir -p ~/.ssh  # Ensure the .ssh directory exists
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/deploy_key  # Save the private key to a file
+          chmod 600 ~/.ssh/deploy_key  # Restrict permissions to the private key
           eval "$(ssh-agent -s)"  # Start the SSH agent
-          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -  # Add the SSH key
+          ssh-add ~/.ssh/deploy_key  # Add the SSH key to the agent
 
       # Pull the latest changes on the server
       - name: Pull changes on Server
