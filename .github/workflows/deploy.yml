@@ -3,28 +3,31 @@ name: Deploy to Server
 on:
   push:
     branches:
-      - main  # Adjust to the branch you want to deploy
+      - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Set up SSH
+      - name: Set up SSH and Known Hosts
         run: |
           mkdir -p ~/.ssh
           echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          # Add the server's SSH key to known_hosts
+          # Add server's SSH key to known_hosts to avoid host verification issues
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
-          # Set up SSH config
           echo -e "Host server\n\tHostName ${{ secrets.SSH_HOST }}\n\tUser ${{ secrets.SSH_USER }}\n\tIdentityFile ~/.ssh/deploy_key\n\tStrictHostKeyChecking no" > ~/.ssh/config
+
+      - name: Test SSH Connection
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} "echo 'SSH Connection Successful'"
 
       - name: Deploy with Git pull
         run: |
           ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} << 'EOF'
           cd /var/www/html/break-tech/
-          git pull origin main  # Adjust 'main' to your branch
+          git pull origin main
           composer install --no-dev --optimize-autoloader
           php artisan migrate --force
           EOF
