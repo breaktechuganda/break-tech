@@ -10,11 +10,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository (required by GitHub Actions)
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Start SSH agent and add the private SSH key
       - name: Start SSH Agent and Add Key
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
           eval "$(ssh-agent -s)"  # Start the SSH agent
           echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -  # Add the SSH key
 
+      # Pull the latest changes on the server
       - name: Pull changes on Server
         env:
           REMOTE_USER: ${{ secrets.SSH_USER }}
@@ -22,4 +30,3 @@ jobs:
           REMOTE_PATH: "/var/www/html/break-tech"
         run: |
           ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST "cd $REMOTE_PATH && git pull origin main"
-
