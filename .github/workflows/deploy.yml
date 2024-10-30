@@ -10,26 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository (required by GitHub Actions)
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Start SSH agent and add the private SSH key from secrets
-      - name: Start SSH Agent and Add Key
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-        run: |
-          mkdir -p ~/.ssh  # Ensure the .ssh directory exists
-          echo "$SSH_PRIVATE_KEY" | tr -d '\r' > ~/.ssh/deploy_key  # Save the private key to a file
-          chmod 600 ~/.ssh/deploy_key  # Restrict permissions to the private key
-          eval "$(ssh-agent -s)"  # Start the SSH agent
-          ssh-add ~/.ssh/deploy_key  # Add the SSH key to the agent
-
-      # Pull the latest changes on the server
-      - name: Pull changes on Server
-        env:
-          REMOTE_USER: ${{ secrets.SSH_USER }}
-          REMOTE_HOST: ${{ secrets.SSH_HOST }}
-          REMOTE_PATH: "/var/www/html/break-tech"
-        run: |
-          ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST "cd $REMOTE_PATH && git pull origin main"
+      - name: Deploy to Server
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: "."
+          target: "/var/www/html/break-tech"
