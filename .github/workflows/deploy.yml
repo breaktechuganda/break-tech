@@ -22,3 +22,4 @@ jobs:
           script: |
             cd /var/www/html/break-tech
             git pull origin main
+            composer install
