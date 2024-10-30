@@ -10,15 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Start SSH Agent and Add Key
+        run: |
+          eval "$(ssh-agent -s)"  # Start the SSH agent
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -  # Add the SSH key
 
       - name: Pull changes on Server
         env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
-          REMOTE_PATH: "/var/www/html/breal-tech"
+          REMOTE_PATH: "/var/www/html/break-tech"
         run: |
-          echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add - > /dev/null
           ssh -o StrictHostKeyChecking=no $REMOTE_USER@$REMOTE_HOST "cd $REMOTE_PATH && git pull origin main"
+
