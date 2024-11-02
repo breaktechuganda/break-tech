@@ -5,15 +5,17 @@
           <div class="block-title text-center">
             <div class="block-title__image"></div>
             <!-- /.block-title__image -->
-            <p>Our Services list</p>
-            <h3>What We’re Offering</h3>
+            <p>Breaktech business pillars</p>
+            <h3>Business Pillars</h3>
           </div>
+          <p class="business-pillars-sub-text bottom-content">Our key objective at BreakTech is focus on wealth creation through providing expert guidance, innovative solutions, and hands-on support to young and emerging agricultural entrepreneurs. Our core business priorities are: Farmer’s Health, Financial Inclusion, Access to Markets, Mindset Change and Value Addition in the Agro business sector.</p>
           <!-- /.block-title -->
+
           <div class="row d-flex align-items-stretch">
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-two__card">
                 <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/service-1-2-3.jpg"); ?>" alt="" />
+                  <img src="<?= base_url("assets/images/10 farmer-harvesting-fresh-coffee-beans-from-plant_641503-165090.jpg"); ?>" alt="" />
                 </div>
                 <!-- /.service-two__card-image -->
                 <div class="service-two__card-content">
@@ -22,10 +24,10 @@
                   </div>
                   <!-- /.service-two__card-icon -->
                   <h3>
-                    <a href="<?= base_url('products_and_services/market-access'); ?>">Market access through <br />e-commerce</a>
+                    <a href="<?= base_url('products_and_services/financial-inclusion'); ?>">Financial Inclusion</a>
                   </h3>
                   <p>
-                  A dedicated online agri-commodities platform for all.
+                  Pathway to Economic Independence and Growth
                   </p>
                 </div>
                 <!-- /.service-two__card-content -->
@@ -36,7 +38,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-two__card">
                 <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/farmers-health.jpg"); ?>" alt="" />
+                  <img src="<?= base_url("assets/images/07 pineapple man.jpg"); ?>" alt="" />
                 </div>
                 <!-- /.service-two__card-image -->
                 <div class="service-two__card-content">
@@ -46,7 +48,7 @@
                   <!-- /.service-two__card-icon -->
                   <h3><a href="<?= base_url('products_and_services/farmers-health'); ?>">Farmers health</a></h3>
                   <p>
-                  Health Insurance, Telemedicine Services, Health Awareness Workshops, Occupational Health Support, Mental Health Suppor and many more.
+                  Supporting Farmers' Health and Resilience
                   </p>
                 </div>
                 <!-- /.service-two__card-content -->
@@ -57,7 +59,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-two__card">
                 <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/service-farmer-1.jpg"); ?>" alt="" />
+                  <img src="<?= base_url("assets/images/27 man-spying-woman-using-pos-machine-from.jpg"); ?>" alt="" />
                 </div>
                 <!-- /.service-two__card-image -->
                 <div class="service-two__card-content">
@@ -65,9 +67,9 @@
                     <i class="agrikon-icon-organic-food"></i>
                   </div>
                   <!-- /.service-two__card-icon -->
-                  <h3><a href="<?= base_url('products_and_services/entrepreneurship-support'); ?>">Entrepreneurship Support</a></h3>
+                  <h3><a href="<?= base_url('products_and_services/access-to-markets'); ?>">Access to Markets</a></h3>
                   <p>
-                  Workshops, diagnostics solutions, problem-solving, coaching, marketing, and support, for all agricultural enterprise
+                  Platform for Sustainable Growth and Economic Opportunity
                   </p>
                 </div>
                 <!-- /.service-two__card-content -->
@@ -78,7 +80,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-two__card">
                 <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/infra-setup.jpg"); ?>" alt="" />
+                  <img src="<?= base_url("assets/images/15 birds in cage.jpg"); ?>" alt="" />
                 </div>
                 <!-- /.service-two__card-image -->
                 <div class="service-two__card-content">
@@ -86,9 +88,9 @@
                   <i class="agrikon-icon-agriculture"></i>  
                 </div>
                   <!-- /.service-two__card-icon -->
-                  <h3><a href="<?= base_url('products_and_services/infrastructure-support'); ?>">Infrastructure Support</a></h3>
+                  <h3><a href="<?= base_url('products_and_services/mindset-change'); ?>">Mindset Change</a></h3>
                   <p>
-                  Now track your goods through all nodes of your supply chain operations.
+                  Initiative for Sustainable and Innovative Agriculture in Uganda.
                   </p>
                 </div>
                 <!-- /.service-two__card-content -->
@@ -99,7 +101,7 @@
             <div class="col-sm-12 col-md-6 col-lg-4">
               <div class="service-two__card">
                 <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/litracy-and-wealth.jpg"); ?>" alt="" />
+                  <img src="<?= base_url("assets/images/18 juice.jpg"); ?>" alt="" />
                 </div>
                 <!-- /.service-two__card-image -->
                 <div class="service-two__card-content">
@@ -107,36 +109,15 @@
                   <i class="agrikon-icon-planting"></i>
                   </div>
                   <!-- /.service-two__card-icon -->
-                  <h3><a href="<?= base_url('products_and_services/literacy-and-knowledge-hub'); ?>">Literacy and knowledge Hub</a></h3>
+                  <h3><a href="<?= base_url('products_and_services/value-addition-agro-business'); ?>">Value Addition in the Agro Business Sector</a></h3>
                   <p>
-                  A dedicated financial support scheme as aid/low interes and state-of-the-art support in physical infrastructure, training programs,financial literacy, with collaborative networking.                  </p>
+                  Support for Quality and Innovation in Agro Products</p>
                 </div>
                 <!-- /.service-two__card-content -->
               </div>
               <!-- /.service-two__card -->
             </div>
             <!-- /.col-sm-12 col-md-6 col-lg-3 -->
-            <div class="col-sm-12 col-md-6 col-lg-4">
-              <div class="service-two__card">
-                <div class="service-two__card-image">
-                  <img src="<?= base_url("assets/images/services/ware-house.png"); ?>" alt="" />
-                </div>
-                <!-- /.service-two__card-image -->
-                <div class="service-two__card-content">
-                  <div class="service-two__card-icon">
-                    <!-- <i class="agrikon-icon-dairy"></i> -->
-                    <i class="agrikon-icon-customer"></i>
-                  </div>
-                  <!-- /.service-two__card-icon -->
-                  <h3><a href="<?= base_url('products_and_services/warehousing'); ?>">Warehousing</a></h3>
-                  <p>
-                  A state of art storage support through an integrated and pan country warehousing network.
-                  </p>
-                </div>
-                <!-- /.service-two__card-content -->
-              </div>
-              <!-- /.service-two__card -->
-            </div>
             <!-- /.col-sm-12 col-md-6 col-lg-3 -->
           </div>
           <!-- /.row -->

@@ -5511,6 +5511,7 @@ h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -6318,6 +6319,7 @@ h6 {
   margin-right: -10px;
   margin-top: -10px;
   margin-bottom: -10px;
+  justify-content: center;
 }
 
 @media (min-width: 992px) {
@@ -8507,5 +8509,16 @@ h6 {
     position: relative;
     left: 30px;
   }
+}
+
+@media (min-width: 1200px) {
+  .business-pillars-sub-text {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+}
+.business-pillars-sub-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */

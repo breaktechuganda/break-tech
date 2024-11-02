@@ -1,8 +1,13 @@
 <section class="project-details">
   <div class="container">
       <!-- <img src="assets/images/projects/project-d-1-1.jpg" class="img-fluid" alt=""> -->
-      <h2>Audience:</h2>
-      <p>
+      <h2>Focus group:</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="assets/images/photo man grazing.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6">
+          <p>
           BreakTech Business Advisory Service is designed to target young, small-scale farmers, with special
           emphasis on women who are passionate about agriculture and are eager to learn, as a bid to ensure
           that the next generation is equipped with the skills and knowledge needed for modern farming.
@@ -12,6 +17,9 @@
           community ties, networking, sustainable development and knowledge sharing among families
           through the women.
       </p>
+        </div>
+      </div>
+      
       <div class="bottom-content">
           <div class="row">
               <div class="col-lg-6">
@@ -39,9 +47,7 @@
                     agricultural endeavours.</p>
               </div><!-- /.col-lg-6 -->
               <div class="col-lg-6">
-                  <div class="project-details__images">
-                      <img src="assets/images/projects/project-d-2-1.jpg" alt="">
-                      <img src="assets/images/projects/project-d-2-2.jpg" alt="">
+                      <img src="assets/images/farmer-mother-plays-with-her-daughter-while-harvesting-coffee-berries.jpg"  class="img-fluid" alt="">
                   </div><!-- /.project-details__images -->
               </div><!-- /.col-lg-6 -->
           </div><!-- /.row -->

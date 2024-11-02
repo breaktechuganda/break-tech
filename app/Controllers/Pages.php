@@ -16,30 +16,27 @@ class Pages extends BaseController
     ];
     private $product_and_services_details = [
         [
-            'label' => 'Market Access Through E&#8209;Commerce',
-            'url' => 'market-access'
-        ],
-        [
-            'label' => 'Farmers Health',
+            'label' => 'Farmer’s Health',
             'url' => 'farmers-health'
         ],
         [
-            'label' => 'Entrepreneurship Support',
-            'url' => 'entrepreneurship-support'
+            'label' => 'Financial Inclusion',
+            'url' => 'financial-inclusion'
         ],
         [
-            'label' => 'Infrastructure Support',
-            'url' => 'infrastructure-support'
+            'label' => 'Access to Markets',
+            'url' => 'access-to-markets'
         ],
         [
-            'label' => 'Literacy and knowledge Hub',
-            'url' => 'literacy-and-knowledge-hub'
+            'label' => 'Mindset Change',
+            'url' => 'mindset-change'
         ],
         [
-            'label' => 'Warehousing',
-            'url' => 'warehousing'
+            'label' => 'Value Addition in the Agro Business Sector',
+            'url' => 'value-addition-agro-business'
         ]
     ];
+
     
     public function index(): string
     {
@@ -87,29 +84,25 @@ class Pages extends BaseController
     private function getDynamicContentForPage($page)
     {
         $pages = [
-            'market-access' => [
-                'title' => 'Market Access Through E&#8209;Commerce',
-                'view' => 'sections/products_and_services/market-access'
+            'financial-inclusion' => [
+                'title' => 'Financial Inclusion',
+                'view' => 'sections/products_and_services/financial-inclusion'
             ],
-            'entrepreneurship-support' => [
-                'title' => 'Entrepreneurship Support',
-                'view' => 'sections/products_and_services/entrepreneurship-support'
+            'access-to-markets' => [
+                'title' => 'Access to Markets',
+                'view' => 'sections/products_and_services/access-to-markets'
             ],
             'farmers-health' => [
                 'title' => 'Farmers Health',
                 'view' => 'sections/products_and_services/farmers-health'
             ],
-            'literacy-and-knowledge-hub' => [
-                'title' => 'Literacy and Wealth Management',
-                'view' => 'sections/products_and_services/literacy-and-knowledge-hub'
+            'mindset-change' => [
+                'title' => 'Mindset Change',
+                'view' => 'sections/products_and_services/mindset-change'
             ],
-            'infrastructure-support' => [
-                'title' => 'Infrastructure Support',
-                'view' => 'sections/products_and_services/infrastructure-support'
-            ],
-            'warehousing' => [
-                'title' => 'Warehousing',
-                'view' => 'sections/products_and_services/warehousing'
+            'value-addition-agro-business' => [
+                'title' => 'Value Addition in the Agro Business Sector',
+                'view' => 'sections/products_and_services/value-addition-agro-business'
             ],
         ];
 

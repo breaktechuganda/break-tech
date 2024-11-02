@@ -1,14 +1,22 @@
 <section class="project-details">
             <div class="container">
+            <img src="<?= base_url("/assets/images/organic-hydroponics-vegetable-farm.jpg"); ?>" class="img-fluid" alt="">
+
                 <h2>Overview</h2>
                 <p>
-                    BreakTech Business Advisory Service Ltd is a professional consulting service dedicated to
-                    empowering the next generation of small-scale farmers by providing tailored guidance and support
-                    to individuals and families who manage small agricultural operations with a focus on self-sufficiency
-                    and sustainability.</br></br>
-                    BreakTech was established with the ultimate objective to identify ways of promoting household
-                    welfare and wealth by providing expert guidance, innovative solutions, and hands-on support to
-                    young and emerging agricultural entrepreneurs.
+                    Based in Uganda, East Africa, BreakTech Business Advisory Service Ltd is a professional consulting
+                    service dedicated to empowering the next
+                    generation of small-scale farmers by
+                    providing tailored guidance and support to
+                    individuals and families who manage small
+                    agricultural operations with a focus on self-
+                    sufficiency and sustainability.</br></br>
+                    BreakTech was established with the ultimate
+                    objective to identify ways of promoting
+                    household welfare and wealth by providing
+                    expert guidance, innovative solutions, and
+                    hands-on support to young and emerging
+                    agricultural entrepreneurs.
                 </p>
                 <div class="bottom-content">
                     <div class="row">
