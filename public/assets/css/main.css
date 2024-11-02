@@ -5523,10 +5523,15 @@ h6 {
 .project-details__images img {
   margin-top: 30px;
 }
-
+.project-details .row:nth-child(1) {
+  flex-direction: column-reverse;
+}
+.project-details .row {
+  flex-direction: row;
+}
 @media (min-width: 992px) {
-  .project-details__images img:nth-child(1) {
-    display: none;
+  .project-details .row:nth-child(1) {
+    flex-direction: row;
   }
 }
 
@@ -7554,7 +7559,6 @@ h6 {
 @media (min-width: 1200px) {
   .feature-one__summery {
     margin-top: -30px;
-    max-width: 515px;
     margin-bottom: 40px;
   }
 }

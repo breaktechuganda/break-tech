@@ -7,7 +7,7 @@
     <?= view('sections/feature-one') ?>
     <?= view('sections/about_us/team-one') ?>
     <?= view('sections/testimonials-one')?>
-    <?= view('sections/about_us/about-one') ?>
+    <?= view('sections/about_us/about-two') ?>
     <?= view('sections/about_us/call-to-action') ?>
 
 <?= $this->endSection() ?>
