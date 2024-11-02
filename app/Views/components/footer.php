@@ -69,7 +69,7 @@
                             <li>
                                 <i class="agrikon-icon-pin"></i>
                                 <a href="#">
-                                    BreakTech Advisory Services Ltd, 
+                                    BreakTech Advisory Services Ltd., 
                                     Plot 62 Kanjokya Street, </br>
                                     Kampala, Uganda </br>
                                     P.O.Box 701440</br>
