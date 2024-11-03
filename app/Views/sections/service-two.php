@@ -5,10 +5,10 @@
           <div class="block-title text-center">
             <div class="block-title__image"></div>
             <!-- /.block-title__image -->
-            <p>Breaktech business pillars</p>
+            <!-- <p>Breaktech business pillars</p> -->
             <h3>Business Pillars</h3>
           </div>
-          <p class="business-pillars-sub-text bottom-content">Our key objective at BreakTech is focus on wealth creation through providing expert guidance, innovative solutions, and hands-on support to young and emerging agricultural entrepreneurs. Our core business priorities are: Farmer’s Health, Financial Inclusion, Access to Markets, Mindset Change and Value Addition in the Agro business sector.</p>
+          <p class="business-pillars-sub-text bottom-content">Our key objective at BreakTech is focus on wealth creation through providing expert guidance, innovative solutions, and hands-on support to young and emerging agricultural entrepreneurs.</br> Our core business priorities are: Farmer’s Health, Financial Inclusion, Access to Markets, Mindset Change and Value Addition in the Agro business sector.</p>
           <!-- /.block-title -->
 
           <div class="row d-flex align-items-stretch">

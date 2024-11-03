@@ -13,7 +13,7 @@
         <div class="container">
           <div class="call-to-action__content">
             <i class="call-to-action__icon agrikon-icon-agriculture-2"></i>
-            <h3>We’re popular leader in agriculture market globally</h3>
+            <h3>We’re popular leader in agriculture market in uganda</h3>
           </div>
           <!-- /.call-to-action__content -->
           <div class="call-to-action__button">

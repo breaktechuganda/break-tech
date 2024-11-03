@@ -6,12 +6,12 @@
         />
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-lg-12 col-xl-6">
+            <div class="col-md-12 col-lg-12 col-xl-5">
               <div class="team-one__content">
                 <div class="block-title">
                   <div class="block-title__image"></div>
                   <!-- /.block-title__image -->
-                  <p>Meet the team Breaktech</p>
+                  <p>Meet the team</p>
                   <h3>Management and team</h3>
                 </div>
                 <!-- /.block-title -->
@@ -35,7 +35,7 @@
               </div>
               <!-- /.team-one__content -->
             </div>
-            <div class="col-md-12 col-lg-12 col-xl-6">
+            <div class="col-md-12 col-lg-12 col-xl-7">
               <img src="<?= base_url('assets/images/organizational-chart.png'); ?>" class="img-fluid" alt="">
               <!-- /.team-one__content -->
             </div>
