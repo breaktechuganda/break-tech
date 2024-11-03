@@ -41,7 +41,7 @@
           <div class="container">
             <div class="logo-box">
               <a href="<?= base_url('/'); ?>" aria-label="logo image"
-                ><img src="<?= base_url('assets/images/breaktech-logo-01-01.png'); ?>" width="80" alt=""
+                ><img src="<?= base_url('assets/images/breaktech-logo-01-01.png'); ?>" width="140" alt=""
               /></a>
               <span class="fa fa-bars mobile-nav__toggler"></span>
             </div>
@@ -79,7 +79,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="far fa-times"></i></span>
 
             <div class="logo-box">
-                <a href="<?= base_url('/'); ?>" aria-label="logo image"><img src="<?= base_url('assets/images/breaktech-logo-01-01.png'); ?>"  width="80" alt="" /></a>
+                <a href="<?= base_url('/'); ?>" aria-label="logo image"><img src="<?= base_url('assets/images/breaktech-logo-01-01.png'); ?>"  width="140" alt="" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>

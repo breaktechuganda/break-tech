@@ -56,7 +56,7 @@
               <!-- /.col-lg-9 -->
               <div class="col-lg-3">
                 <div class="blog-home__slogan-image">
-                  <img src="<?= base_url('assets/images/resources/blog-cta-2.jpg'); ?>" alt="" />
+                  <img src="<?= base_url('assets/images/resources/blog-cta-2.png'); ?>" alt="" />
                 </div>
                 <!-- /.blog-home__slogan-image -->
               </div>

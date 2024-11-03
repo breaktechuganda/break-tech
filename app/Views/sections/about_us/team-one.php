@@ -12,7 +12,7 @@
                   <div class="block-title__image"></div>
                   <!-- /.block-title__image -->
                   <p>Meet the team</p>
-                  <h3>Management and team</h3>
+                  <h3>Management and Team</h3>
                 </div>
                 <!-- /.block-title -->
                 <div class="team-one__summery">
