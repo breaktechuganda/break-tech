@@ -12,7 +12,7 @@
                         production and household sustenance, these
                         farmers faced many unprecedented
                         challenges, such as declined health and
-                        wellbeing, restricted access to markets,
+                        wellbeing, restricted Access to Market and Training,
                         limited availability of essential resources, and
                         increased household responsibilities and
                         caregiving duties due to school closures and

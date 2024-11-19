@@ -7,32 +7,25 @@
             <section class="funfact-one">
                 <div class="container">
                     <div class="row no-gutters">
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="funfact-one__single">
                                 <i class="agrikon-icon-farm"></i>
                                 <h3><span class="odometer" data-count="1100">00</span>+</h3>
                                 <p>Farmers supported</p>
                             </div><!-- /.funfact-one__single -->
                         </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="funfact-one__single">
                                 <i class="agrikon-icon-agriculture-1"></i>
                                 <h3><span class="odometer" data-count="10000">00</span>+</h3>
-                                <p>Consumers served</p>
+                                <p>Women and youth groups served</p>
                             </div><!-- /.funfact-one__single -->
                         </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                        <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
                             <div class="funfact-one__single">
                                 <i class="agrikon-icon-customer"></i>
                                 <h3><span class="odometer" data-count="20">00</span>+</h3>
                                 <p>Agriprenuers Served</p>
-                            </div><!-- /.funfact-one__single -->
-                        </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
-                        <div class="col-sm-12 col-md-6 col-lg-3">
-                            <div class="funfact-one__single">
-                                <i class="agrikon-icon-planting"></i>
-                                <h3><span class="odometer" data-count="50">00</span>M+</h3>
-                                <p>UGX funds of funds</p>
                             </div><!-- /.funfact-one__single -->
                         </div><!-- /.col-sm-12 col-md-6 col-lg-3 -->
                     </div><!-- /.row -->
@@ -46,8 +39,7 @@
                   <i class="agrikon-icon-farm"></i>
                   <div class="blog-home__slogan-content">
                     <h3>We Care About Your Agriculture Growth</h3>
-                    <p>We aim to revolutionize the ecological and economic development of<br /> Uganda's 
-                        landscape by creating value from the grassroots level.</p>
+                    <p>We aim to revolutionize the ecological and economic development of <br />our farming communities at grassroot level.</p>
                   </div>
                   <!-- /.blog-home__slogan-content -->
                 </div>

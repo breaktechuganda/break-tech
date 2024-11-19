@@ -3,7 +3,7 @@
             <div class="block-title text-center">
             <div class="block-title__image"></div>
             <!-- /.block-title__image -->
-            <h3>Gallery</h3>
+            <h3>Posts and updates</h3>
           </div>
                 <div class="row">
                     <div class="col-lg-8">

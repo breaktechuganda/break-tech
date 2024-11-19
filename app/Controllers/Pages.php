@@ -8,15 +8,19 @@ class Pages extends BaseController
         ['label' => 'Home', 'url' => '/'],
         ['label' => 'About us', 'url' => 'about-us'],
         ['label' => 'Products & Services', 'url' => 'products_and_services'],
+        ['label' => 'Activities & advisory', 'url' => 'activities-and-advisory'],
+        ['label' => 'Gallery', 'url' => 'gallery'],
         ['label' => 'News', 'url' => 'news'],
         ['label' => 'Blogs', 'url' => 'blogs'],
+
+
     ];
     private $contactItem = [
         'label' => 'Contact us', 'url' => 'contact-us'
     ];
     private $product_and_services_details = [
         [
-            'label' => 'Farmer’s Health',
+            'label' => 'Farmer Health',
             'url' => 'farmers-health'
         ],
         [
@@ -24,7 +28,7 @@ class Pages extends BaseController
             'url' => 'financial-inclusion'
         ],
         [
-            'label' => 'Access to Markets',
+            'label' => 'Access to Market and Training',
             'url' => 'access-to-markets'
         ],
         [
@@ -49,6 +53,10 @@ class Pages extends BaseController
         return view('pages/about_us', ['title' => 'About Us', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
     }
 
+    public function activities_and_advisory()
+    {
+        return view('pages/activities_and_advisory', ['title' => 'Our Activities & advisory services', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
+    }
     public function products_and_services()
     {
         return view('pages/products_and_services', ['title' => 'Products & Services', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
@@ -77,6 +85,10 @@ class Pages extends BaseController
     {
         return view('pages/blogs', ['title' => 'Blog', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
     }
+    public function gallery()
+    {
+        return view('pages/gallery', ['title' => 'Gallery', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
+    }
     public function contact_us()
     {
         return view('pages/contact', ['title' => 'Contact Us', 'menuItems' => $this->menuItems, 'contactItem' => $this->contactItem]);
@@ -89,7 +101,7 @@ class Pages extends BaseController
                 'view' => 'sections/products_and_services/financial-inclusion'
             ],
             'access-to-markets' => [
-                'title' => 'Access to Markets',
+                'title' => 'Access to Market and Training',
                 'view' => 'sections/products_and_services/access-to-markets'
             ],
             'farmers-health' => [

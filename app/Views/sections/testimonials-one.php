@@ -1,9 +1,5 @@
 <section class="testimonials-one">
-        <img
-          src="assets/images/icons/testimonials-bg-1-1.png"
-          class="testimonials-one__bg"
-          alt=""
-        />
+
         <div class="container">
           <h2 class="testimonials-one__title">Testimonials</h2>
           <div

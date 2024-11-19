@@ -65,6 +65,5 @@ serve.
                 </li>
             </ul>
         </div><!-- /.feature-one__content -->
-        <div class="special-box mb-0">A team of agripreneurs dedicated to serve the ugandans landscape by positively changing the lives of farmers</div>
-    </div><!-- /.container -->
+     </div><!-- /.container -->
 </section><!-- /.feature-one -->

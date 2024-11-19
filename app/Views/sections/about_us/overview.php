@@ -1,6 +1,6 @@
 <section class="project-details">
             <div class="container">
-            <img src="<?= base_url("/assets/images/organic-hydroponics-vegetable-farm.jpg"); ?>" class="img-fluid" alt="">
+            <img src="<?= base_url("/assets/images/11 image coffe kuru.jpg"); ?>" class="img-fluid" alt="">
 
                 <h2>Overview</h2>
                 <p>

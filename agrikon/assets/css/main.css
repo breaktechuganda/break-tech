@@ -5464,13 +5464,13 @@ h6 {
 }
 
 .project-details {
-  padding-top: 80px;
+  padding-top: 20px;
   padding-bottom: 80px;
 }
 
 @media (min-width: 1200px) {
   .project-details {
-    padding-top: 120px;
+    padding-top: 40px;
     padding-bottom: 120px;
   }
 }

@@ -1,6 +1,6 @@
 
         <footer class="site-footer">
-            <img src="assets/images/icons/footer-bg-icon-1.png" class="site-footer__shape-1" alt="">
+            <!-- <img src="assets/images/icons/footer-bg-icon-1.png" class="site-footer__shape-1" alt=""> -->
             <img src="assets/images/icons/footer-bg-icon-2.png" class="site-footer__shape-2" alt="">
             <div class="container">
                 <div class="row">

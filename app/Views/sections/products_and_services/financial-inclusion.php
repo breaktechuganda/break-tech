@@ -1,6 +1,6 @@
 <div class="col-lg-8">
                         <img src="<?= base_url("assets/images/10 farmer-harvesting-fresh-coffee-beans-from-plant_641503-165090.jpg"); ?>"  alt="">
-                        <h2>Financial Inclusion : Pathway to Economic Independence and Growth</h2>
+                        <h2>Pathway to Economic Independence and Growth</h2>
                         <p>BreakTech aims to combat financial illiteracy and promote financial inclusion for all farmers. We
                             provide advisory services designed to empower our local farmers to achieve financial independence,
                             stability, and growth. We bridge the gap between local farmers and financing organisations to ensure
@@ -30,7 +30,7 @@
                                 Forming cooperatives on behalf of the farmers to enhance collective financial strength.
                             </li>
                         </ul><!-- /.service-details__list list-unstyled -->
-                        <p>We prioritizing financial inclusion, literacy, resource mobilization,
+                        <p>We prioritise financial inclusion, literacy, resource mobilization,
                             wealth creation and management, to empower our Ugandan farmers to
                             achieve greater economic independence and resilience. Our activities
                             are aimed at breaking barriers to finance access and encouraging a

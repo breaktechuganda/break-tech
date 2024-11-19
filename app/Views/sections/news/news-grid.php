@@ -1,5 +1,23 @@
 <section class="blog-grid">
             <div class="container">
+                <div class="row top-row">
+              <div class="col-lg-6">
+                <div class="block-title">
+                  <div class="block-title__image"></div>
+                  <!-- /.block-title__image -->
+                  <p>From the blog post</p>
+                  <h3>Empowering farmers by laying emphasis on health, agriculture, and education</h3>
+                </div>
+                <!-- /.block-title -->
+              </div>
+              <!-- /.col-lg-6 -->
+              <div class="col-lg-6">
+                <p class="block-text">
+                At BreakTech, we are a social enterprise dedicated to driving social development through the innovative use of technology to incorporate financial inclusion, health integration, e-commerce access, and resource mobilization for better wealth creation and sustainable growth.
+                </p>
+              </div>
+              <!-- /.col-lg-6 -->
+            </div>
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
                         <div class="blog-card">

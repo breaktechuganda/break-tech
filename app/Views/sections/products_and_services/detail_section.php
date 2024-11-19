@@ -12,11 +12,7 @@
                                     <?php endforeach; ?>
                                 </ul>
                             </div><!-- /.service-sidebar__links -->
-                            <div class="service-sidebar__call">
-                                <div class="service-sidebar__call-bg" style="background-image: url(assets/images/services/service-widget-bg-1.jpg);"></div>
-                                <!-- /.service-sidebar__call-bg -->
-                                <h3>The sector Agriculture contributed 25% that is 1/4th of whole GDP of Uganda.</h3>
-                            </div><!-- /.service-sidebar__call -->
+                        
                         </div><!-- /.service-sidebar -->
                     </div><!-- /.col-lg-4 -->
                     <?= view($dynamicContent) ?>

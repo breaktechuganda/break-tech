@@ -5,8 +5,9 @@
     <?= view('sections/page-header') ?>
     <?= view('sections/about_us/overview') ?>
     <?= view('sections/feature-one') ?>
+    <?= view('sections/about_us/about-two') ?>
     <?= view('sections/about_us/team-one') ?>
     <?= view('sections/testimonials-one')?>
-    <?= view('sections/about_us/call-to-action') ?>
+    <?= view('sections/about_us/our-partners-and-collaborations')?>
 
 <?= $this->endSection() ?>

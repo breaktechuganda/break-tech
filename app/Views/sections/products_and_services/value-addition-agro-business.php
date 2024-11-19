@@ -1,12 +1,7 @@
 <div class="col-lg-8">
                         <img src="<?= base_url("assets/images/18 juice.jpg"); ?>" alt="">
-                        <h2>Value Addition in the Agro Business Sector : Support for Quality and Innovation in Agro Products</h2>
-                        <p>We believe in helping farmers to not just engage in
-                            Agricultural activities, but to thrive in an ever-evolving
-                            agricultural landscape. By focusing on these pillars,
-                            BreakTech aims to empower farmers to improve their
-                            livelihoods, and contribute to the overall development of
-                            the agricultural sector in Uganda.</p>
+                        <h2>Support for Quality and Innovation in Agro Products</h2>
+                        <p>We are committed to assisting farmers in engaging with a constantly evolving agricultural sector and a dynamic consumer market. By emphasizing these core principles, BreakTech aims to empower farmers to improve their livelihoods and contribute to the overall development of their communities.</p>
 </br>
                         <p>We encourage farmers to transform and enhance the
                             quality and sustainability of their Agro products through
