@@ -60,7 +60,7 @@
         <div class="search-popup__content">
             <form action="#">
                 <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-                <input type="text" id="search" placeholder="Search Here..." />
+                <input type="text" id="search" placeholder="Search Here...." />
                 <button type="submit" aria-label="search submit" class="thm-btn">
                     <i class="fa fa-search"></i>
                 </button>
