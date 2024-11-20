@@ -23,10 +23,7 @@
      href="<?= base_url('assets/images/favicons/favicon-16x16.png'); ?>"
     />
     <link rel="manifest" href="<?= base_url('assets/images/favicons/site.webmanifest'); ?>" />
-    <meta
-      name="description"
-      content="Agrikon HTML Template For Agriculture Farm & Farmers"
-    />
+
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com/" />

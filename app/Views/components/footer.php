@@ -73,7 +73,7 @@
                                     Plot 62 Kanjokya Street, </br>
                                     Kampala, Uganda </br>
                                     P.O.Box 701440</br>
-                                    Entebbe Ugandan
+                                    Entebbe Uganda
                                 </a>
                             </li>
                         </ul><!-- /.list-unstyled -->
