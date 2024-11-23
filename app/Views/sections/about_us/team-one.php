@@ -11,20 +11,13 @@
                 <div class="block-title">
                   <div class="block-title__image"></div>
                   <!-- /.block-title__image -->
-                  <p>Our Structure</p>
+                  <p>Our Expert Team</p>
                   <h3>Management and Team</h3>
                 </div>
                 <!-- /.block-title -->
                 <div class="team-one__summery">
                   <p>
-                    We have set up a well-defined hierarchy
-                    structure in management, designed to
-                    ensure clear lines of authority and
-                    accountability. Each level of our
-                    organization is equipped to make informed
-                    decisions and drive strategic initiatives,
-                    while maintaining seamless communication
-                    across departments.
+                    We have set up a well defines hierarchy structure in management, designed to ensure clear lines of authority and accountability. Each level of our organisation is equipped to make informed decisions and driven strategic initiatives, while maintaining seamless communication across departments.
                   </p>
                 </div>
                 <!-- /.team-one__summery -->
@@ -42,16 +35,23 @@
             <!-- /.col-md-12 col-lg-5 -->
           </div>
           <p>
-                    We have set up a well-defined hierarchy
-                    structure in management, designed to
-                    ensure clear lines of authority and
-                    accountability. Each level of our
-                    organization is equipped to make informed
-                    decisions and drive strategic initiatives,
-                    while maintaining seamless communication
-                    across departments.
+                    Our team of experts comprises experienced professional who understand our business models and the needs of our clients and these include
                   </p>
           <!-- /.row -->
+            <ul class="list-unstyled project-details__check-list">
+                      <li>
+                          <i class="fa fa-check-circle"></i>
+                          <strong>The Executive</strong>
+                      </li>
+                      <li>
+                          <i class="fa fa-check-circle"></i>
+                         <strong>Agribusiness Experts</strong>
+                      </li>
+                      <li>
+                          <i class="fa fa-check-circle"></i>
+                          <strong>Business Development Experts</strong>
+                      </li>
+                  </ul>
         </div>
         <!-- /.container -->
  
