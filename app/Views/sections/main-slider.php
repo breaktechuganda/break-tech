@@ -31,7 +31,7 @@
                       Agriculture
                     </h2>
                     <p>
-                    We aim in harnessing technology to transform the whole agriculture landscape engine of uganda by empowering farmers
+                    We aim in harnessing technology to transform the whole agriculture landscape engine of uganda by empowering farmers.
                      </p>
                     <a href="<?= base_url('products_and_services'); ?>" class="thm-btn">Discover More</a>
                     <!-- /.thm-btn dynamic-radius -->
@@ -60,7 +60,7 @@
                     </h2>
                     <p>
                        We aim in harnessing technology to transform the
-                        whole agriculture landscape engine of uganda by empowering farmers
+                        whole agriculture landscape engine of uganda by empowering farmers.
                      </p>
                     <a href="<?= base_url('products_and_services'); ?>" class="thm-btn">Discover More</a>
                     <!-- /.thm-btn dynamic-radius -->
