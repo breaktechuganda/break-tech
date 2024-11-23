@@ -1,6 +1,19 @@
-<IfModule authz_core_module>
+<ifmodule authz_core_module>
 	Require all denied
-</IfModule>
-<IfModule !authz_core_module>
+</ifmodule>
+<ifmodule !authz_core_module>
 	Deny from all
-</IfModule>
+</ifmodule>
+
+# Allow access to font files and set CORS headers
+<filesmatch "\.(woff|woff2|ttf|eot|svg|css|js|png|jpg|jpeg|gif|ico)$">
+	<ifmodule mod_headers.c>
+		Header set Access-Control-Allow-Origin "https://www.breaktechds.com"
+	</ifmodule>
+	<ifmodule authz_core_module>
+		Require all granted
+	</ifmodule>
+	<ifmodule !authz_core_module>
+		Allow from all
+	</ifmodule>
+</filesmatch>
