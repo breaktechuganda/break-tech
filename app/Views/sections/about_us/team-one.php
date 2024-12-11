@@ -6,7 +6,7 @@
         />
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-lg-12 col-xl-5">
+            <div class="col-md-12 col-lg-12 col-xl-12">
               <div class="team-one__content">
                 <div class="block-title">
                   <div class="block-title__image"></div>
@@ -17,7 +17,7 @@
                 <!-- /.block-title -->
                 <div class="team-one__summery">
                   <p>
-                    We have set up a well defines hierarchy structure in management, designed to ensure clear lines of authority and accountability. Each level of our organisation is equipped to make informed decisions and driven strategic initiatives, while maintaining seamless communication across departments.
+                   We have set up a well defines hierarchy structure in management, designed to ensure clear lines of authority and accountability. Each level of our organisation is equipped to make informed decisions and driven strategic initiatives, while maintaining seamless communication across departments.
                   </p>
                 </div>
                 <!-- /.team-one__summery -->
@@ -28,10 +28,9 @@
               </div>
               <!-- /.team-one__content -->
             </div>
-            <div class="col-md-12 col-lg-12 col-xl-7">
+            <!-- <div class="col-md-12 col-lg-12 col-xl-7">
               <img src="<?= base_url('assets/images/organizational-chart.png'); ?>" class="img-fluid" alt="">
-              <!-- /.team-one__content -->
-            </div>
+            </div> -->
             <!-- /.col-md-12 col-lg-5 -->
           </div>
           <p>
@@ -50,6 +49,10 @@
                       <li>
                           <i class="fa fa-check-circle"></i>
                           <strong>Business Development Experts</strong>
+                      </li>
+                      <li>
+                          <i class="fa fa-check-circle"></i>
+                          <strong>Experts in Manufacturing</strong>
                       </li>
                   </ul>
         </div>

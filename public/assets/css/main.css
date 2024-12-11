@@ -613,7 +613,6 @@
 
 @media (min-width: 992px) {
   .team-one__summery {
-    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -621,7 +620,6 @@
 
 @media (min-width: 1200px) {
   .team-one__summery {
-    max-width: 440px;
     margin-left: 0;
     margin-right: 0;
     margin-top: -20px;
