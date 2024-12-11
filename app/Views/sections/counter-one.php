@@ -38,7 +38,7 @@
                 <div class="blog-home__slogan-main">
                   <i class="agrikon-icon-farm"></i>
                   <div class="blog-home__slogan-content">
-                    <h3>We Care About Your Agriculture Growth</h3>
+                    <h3>wwwwWe Care About Your Agriculture Growth</h3>
                     <p>We aim to revolutionize the ecological and economic development of <br />our farming communities at grassroot level.</p>
                   </div>
                   <!-- /.blog-home__slogan-content -->
