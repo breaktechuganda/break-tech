@@ -1,12 +1,11 @@
+
 @font-face {
   font-family: "agrikon-icon";
   src: url("../fonts/agrikon-icon0ef8.eot?9nn143");
   src: url("../fonts/agrikon-icon0ef8.eot?9nn143#iefix")
       format("embedded-opentype"),
-    url("https://www.breaktechds.com/assets/fonts/agrikon-icon0ef8.ttf?9nn143")
-      format("truetype"),
-    ("https://www.breaktechds.com/assets/fonts/agrikon-icon0ef8.woff?9nn143")
-      format("woff"),
+    url("../fonts/agrikon-icon0ef8.ttf?9nn143") format("truetype"),
+    url("../fonts/agrikon-icon0ef8.woff?9nn143") format("woff"),
     url("../fonts/agrikon-icon0ef8.svg?9nn143#agrikon-icon") format("svg");
   font-weight: normal;
   font-style: normal;

@@ -19,7 +19,7 @@
               <div
                 class="image-layer"
                 style="
-                  background-image: url(assets/images/main-slider/main-slider-1-1.jpg);
+                  background-image: url(<?= base_url('assets/images/main-slider/tea-plantation.jpg'); ?>);
                 "
               ></div>
               <!-- /.image-layer -->
@@ -47,7 +47,7 @@
               <div
                 class="image-layer"
                 style="
-                  background-image: url(<?= base_url('assets/images/main-slider/main-slider-1-2.jpg'); ?>);
+                background-image: url(assets/images/main-slider/outdoor-footage-rural-landscape-farm-sun-with-plantation-alpha-parsley-chives-basil.jpg);
                 "
               ></div>
               <!-- /.image-layer -->
