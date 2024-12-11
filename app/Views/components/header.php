@@ -1,7 +1,7 @@
     <div class="preloader">
       <img
         class="preloader__image"
-        width="55"
+        width="100"
         src="<?= base_url('assets/images/loader.png'); ?>"
         alt=""
       />
